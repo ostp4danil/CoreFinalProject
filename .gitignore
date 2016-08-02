@@ -1,6 +1,7 @@
-# floder
+# folder
 .idea/*
 out/*
 
 # class files
 *.class
+out/
