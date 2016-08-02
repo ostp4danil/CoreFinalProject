@@ -17,14 +17,16 @@ public class FileOutput implements IOutput {
         file = new File(fileName);
     }
 
-    public void write(List<String> list) throws IOException {
-        FileWriter out = new FileWriter(file);
+    public void write(List<String> list) {
+
         try {
+            FileWriter out = new FileWriter(file);
             for (String word: list) {
                 out.write(word);
             }
-        } finally {
             out.close();
+        } catch (IOException e) {
+            System.out.println(e.getLocalizedMessage());
         }
     }
 }

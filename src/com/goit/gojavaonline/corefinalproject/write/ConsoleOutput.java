@@ -7,8 +7,12 @@ public class ConsoleOutput implements IOutput {
 
     @Override
     public void write(List<String> list) {
-        for (String word : list) {
-            System.out.println(word);
+        try {
+            for (String word : list) {
+                System.out.println(word);
+            }
+        } catch (NullPointerException e) {
+            System.out.println(e.getLocalizedMessage());
         }
     }
 }

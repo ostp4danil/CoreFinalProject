@@ -1,9 +1,6 @@
 package com.goit.gojavaonline.corefinalproject.read;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -23,8 +20,13 @@ public class FileInput implements IInput {
 
     @Override
     public List<String> read() throws IOException {
-        StringBuilder currentWord = new StringBuilder();
-        List<String> lines = Files.readAllLines(Paths.get(file.getName()), StandardCharsets.UTF_8);
+        List<String> lines = new ArrayList<>();
+        try {
+            lines = Files.readAllLines(Paths.get(file.getName()), StandardCharsets.UTF_8);
+            return lines;
+        } catch (FileNotFoundException e) {
+            System.out.println(e.getLocalizedMessage());
+        }
         return lines;
     }
 
