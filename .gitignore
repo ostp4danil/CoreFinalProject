@@ -1,0 +1,6 @@
+# floder
+.idea/*
+out/*
+
+# class files
+*.class
