@@ -4,9 +4,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Danil-MAC on 7/30/16.
- */
 public class Dictionary {
 
     private String word;
@@ -22,7 +19,7 @@ public class Dictionary {
         return this.word.length() == word.length();
     }
 
-    public List<String> getWordsByLength(String word) throws IOException {
+    public List<String> getWordsWithSameLength(String word) {
         this.word=word;
         List<String> preparedWords = new ArrayList<>();
         StringBuilder currentWord = new StringBuilder();
