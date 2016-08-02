@@ -2,6 +2,8 @@ package com.goit.gojavaonline.corefinalproject;
 
 import com.goit.gojavaonline.corefinalproject.dictionary.Dictionary;
 import com.goit.gojavaonline.corefinalproject.read.FileInput;
+import com.goit.gojavaonline.corefinalproject.write.ConsoleOutput;
+import com.goit.gojavaonline.corefinalproject.write.IOutput;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -14,13 +16,12 @@ public class Main {
         List<String> fileData = new ArrayList<>();
         for(int i=1; i<=3; i++){
             String currentName="English"+i+".txt";
-            System.out.println(currentName);
             FileInput fileInput = new FileInput(currentName);
             fileData.addAll(fileInput.read());
         }
         Dictionary dictionary = new Dictionary(fileData);
         List<String> words = dictionary.getWordsByLength("apple");
-        System.out.println(words);
+        IOutput output = new ConsoleOutput();
     }
 
 }

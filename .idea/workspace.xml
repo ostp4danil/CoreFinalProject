@@ -2,21 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24b187f3-fde9-4ce6-ba8e-657215e4b994" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/read/FileInput.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/read/IInput.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/IOutput.java" />
       <change type="DELETED" beforePath="$USER_HOME$/Documents/module3/src/com/goit/gojavaonline/BusinessClassTicket.java" afterPath="" />
       <change type="DELETED" beforePath="$USER_HOME$/Documents/module3/src/com/goit/gojavaonline/EconomyClassTicket.java" afterPath="" />
       <change type="DELETED" beforePath="$USER_HOME$/Documents/module3/src/com/goit/gojavaonline/FirstPilot.java" afterPath="" />
       <change type="DELETED" beforePath="$USER_HOME$/Documents/module3/src/com/goit/gojavaonline/Flight.java" afterPath="" />
       <change type="DELETED" beforePath="$USER_HOME$/Documents/module3/src/com/goit/gojavaonline/Intinerary.java" afterPath="" />
       <change type="DELETED" beforePath="$USER_HOME$/Documents/module3/src/com/goit/gojavaonline/Ticket.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/read/ConsoleReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/read/IReader.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/read/FileReader.java" afterPath="$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/read/ConsoleInput.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/IWritter.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/ConsoleWritter.java" afterPath="$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/ConsoleOutput.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/FileWritter.java" afterPath="$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/FileOutput.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/Main.java" afterPath="$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/dictionary/Dictionary.java" afterPath="$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/dictionary/Dictionary.java" />
     </list>
     <ignored path="CoreFinalProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,40 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InputStreamReader.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/io/InputStreamReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="167" column="0" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StreamDecoder.class" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/cs/StreamDecoder.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CharBuffer.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/nio/CharBuffer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="372" column="0" selection-start-line="372" selection-start-column="0" selection-end-line="372" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Dictionary.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/dictionary/Dictionary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
+            <state relative-caret-position="525">
               <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -114,6 +81,40 @@
                 <element signature="e#391#392#0" expanded="true" />
                 <element signature="e#452#453#0" expanded="true" />
                 <element signature="e#510#511#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsoleOutput.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/ConsoleOutput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileOutput.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/FileOutput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IOutput.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/IOutput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -203,8 +204,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            <state relative-caret-position="375">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -244,13 +245,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/dictionary/English2.txt" />
-        <option value="$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/ConsoleWritter.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/read/IReader.java" />
         <option value="$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/read/FileReader.java" />
         <option value="$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/read/ConsoleInput.java" />
         <option value="$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/read/FileInput.java" />
         <option value="$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/dictionary/Dictionary.java" />
+        <option value="$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/IWritter.java" />
+        <option value="$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/ConsoleWritter.java" />
+        <option value="$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/IOutput.java" />
+        <option value="$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/ConsoleOutput.java" />
         <option value="$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/Main.java" />
       </list>
     </option>
@@ -361,6 +365,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="corefinalproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CoreFinalProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CoreFinalProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gojavaonline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corefinalproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="write" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -873,16 +911,16 @@
       <workItem from="1469889201915" duration="574000" />
       <workItem from="1470092747914" duration="1010000" />
       <workItem from="1470095592155" duration="1864000" />
-      <workItem from="1470097805273" duration="5493000" />
+      <workItem from="1470097805273" duration="6345000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12076000" />
+    <option name="totallyTimeSpent" value="12928000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -892,7 +930,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3989071" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329235" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329235" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329235" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32650274" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -919,25 +957,25 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/Main.java</url>
-          <line>14</line>
+          <line>16</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/Main.java</url>
-          <line>19</line>
+          <line>21</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/Main.java</url>
-          <line>21</line>
+          <line>23</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/Main.java</url>
-          <line>22</line>
+          <line>24</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
@@ -979,7 +1017,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/ConsoleWritter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/ConsoleOutput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -987,7 +1025,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/FileWritter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/FileOutput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
@@ -995,7 +1033,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/IWritter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/IOutput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
@@ -1069,7 +1107,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/ConsoleWritter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/ConsoleOutput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -1077,7 +1115,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/FileWritter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/FileOutput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
@@ -1085,7 +1123,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/IWritter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/IOutput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
@@ -1166,7 +1204,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/ConsoleWritter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/ConsoleOutput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -1174,7 +1212,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/FileWritter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/FileOutput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
@@ -1182,7 +1220,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/IWritter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/IOutput.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
@@ -1245,30 +1283,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/FileWritter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/ConsoleWritter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/IWritter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1446,7 +1460,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/dictionary/Dictionary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
+        <state relative-caret-position="525">
           <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1458,10 +1472,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/FileOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/IOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/write/ConsoleOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/goit/gojavaonline/corefinalproject/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        <state relative-caret-position="375">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
