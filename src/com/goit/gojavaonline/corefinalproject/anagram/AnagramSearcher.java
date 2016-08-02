@@ -1,4 +1,4 @@
-package com.goit.gojavaonline.corefinalproject.anagramm;
+package com.goit.gojavaonline.corefinalproject.anagram;
 
 import com.goit.gojavaonline.corefinalproject.dictionary.Dictionary;
 import com.sun.media.sound.InvalidDataException;
