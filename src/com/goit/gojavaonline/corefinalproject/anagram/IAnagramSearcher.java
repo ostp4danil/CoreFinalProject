@@ -1,4 +1,4 @@
-package com.goit.gojavaonline.corefinalproject.anagramm;
+package com.goit.gojavaonline.corefinalproject.anagram;
 
 import java.util.List;
 
