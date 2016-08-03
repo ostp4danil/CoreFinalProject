@@ -8,4 +8,8 @@ import java.util.List;
  */
 public interface IInput {
     List<String> read() throws IOException;
+
+    default String readString(){
+        return "";
+    }
 }
