@@ -1,6 +1,6 @@
 package test.com.goit.gojavaonline.corefinalproject.dictionary;
 
-import com.goit.gojavaonline.corefinalproject.dictionary.Dictionary;
+import main.com.goit.gojavaonline.corefinalproject.dictionary.Dictionary;
 import org.junit.Assert;
 import org.junit.Test;
 

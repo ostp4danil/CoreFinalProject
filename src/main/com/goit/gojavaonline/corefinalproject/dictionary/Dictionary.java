@@ -1,4 +1,4 @@
-package com.goit.gojavaonline.corefinalproject.dictionary;
+package main.com.goit.gojavaonline.corefinalproject.dictionary;
 
 import java.io.IOException;
 import java.util.ArrayList;

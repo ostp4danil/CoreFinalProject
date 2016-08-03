@@ -1,7 +1,6 @@
-package com.goit.gojavaonline.corefinalproject.write;
+package main.com.goit.gojavaonline.corefinalproject.write;
 
 import java.io.File;
-import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;

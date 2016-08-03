@@ -1,4 +1,4 @@
-package com.goit.gojavaonline.corefinalproject;
+package main.com.goit.gojavaonline.corefinalproject;
 
 import java.io.IOException;
 

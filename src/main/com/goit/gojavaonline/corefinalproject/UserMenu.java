@@ -1,11 +1,11 @@
-package com.goit.gojavaonline.corefinalproject;
+package main.com.goit.gojavaonline.corefinalproject;
 
-import com.goit.gojavaonline.corefinalproject.anagram.AnagramSearcher;
-import com.goit.gojavaonline.corefinalproject.dictionary.Dictionary;
-import com.goit.gojavaonline.corefinalproject.read.ConsoleInput;
-import com.goit.gojavaonline.corefinalproject.read.FileInput;
-import com.goit.gojavaonline.corefinalproject.read.IInput;
-import com.goit.gojavaonline.corefinalproject.write.ConsoleOutput;
+import main.com.goit.gojavaonline.corefinalproject.anagram.AnagramSearcher;
+import main.com.goit.gojavaonline.corefinalproject.dictionary.Dictionary;
+import main.com.goit.gojavaonline.corefinalproject.read.ConsoleInput;
+import main.com.goit.gojavaonline.corefinalproject.read.FileInput;
+import main.com.goit.gojavaonline.corefinalproject.read.IInput;
+import main.com.goit.gojavaonline.corefinalproject.write.ConsoleOutput;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -38,7 +38,7 @@ public class UserMenu {
         System.out.printf("Second " + lineType + ":");
         String word2 = consoleInput.readString();
         AnagramSearcher anagramSearcher = new AnagramSearcher();
-        System.out.println(anagramSearcher.isAnagram(word1, word2));
+        System.out.println(anagramSearcher.areAnagrams(word1, word2));
     }
 
     private void runSearchingInDictionary() throws IOException {

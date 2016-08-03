@@ -1,4 +1,4 @@
-package com.goit.gojavaonline.corefinalproject.read;
+package main.com.goit.gojavaonline.corefinalproject.read;
 
 import java.io.IOException;
 import java.util.List;

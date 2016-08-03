@@ -1,14 +1,12 @@
-package com.goit.gojavaonline.corefinalproject.anagram;
+package main.com.goit.gojavaonline.corefinalproject.anagram;
 
-import com.goit.gojavaonline.corefinalproject.dictionary.Dictionary;
+import main.com.goit.gojavaonline.corefinalproject.dictionary.Dictionary;
 import com.sun.media.sound.InvalidDataException;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
-
-import static java.lang.Character.*;
 
 public class AnagramSearcher implements IAnagramSearcher {
 
@@ -23,26 +21,19 @@ public class AnagramSearcher implements IAnagramSearcher {
     }
 
     @Override
-    public boolean isAnagram(String firstWord, String secondWord) {
+    public boolean areAnagrams(String firstWord, String secondWord) {
         Map<Character, Integer> characterMapOfFirstWord;
         Map<Character, Integer> characterMapOfSecondWord;
         char[] charsOfFirstWord = firstWord.toCharArray();
         char[] charsOfSecondWord = secondWord.toCharArray();
 
-        try {
-            characterMapOfFirstWord = recountCharsInWord(charsOfFirstWord);
-            characterMapOfSecondWord = recountCharsInWord(charsOfSecondWord);
+        characterMapOfFirstWord = recountCharsInWord(charsOfFirstWord);
+        characterMapOfSecondWord = recountCharsInWord(charsOfSecondWord);
 
-            return characterMapOfFirstWord.equals(characterMapOfSecondWord);
-        } catch (InvalidDataException e) {
-            return false;
-        }
-
-
+        return characterMapOfFirstWord.equals(characterMapOfSecondWord);
     }
 
-    private Map<Character, Integer> recountCharsInWord(char[] chars) throws InvalidDataException {
-
+    private Map<Character, Integer> recountCharsInWord(char[] chars) {
         Map<Character, Integer> characterMap = new TreeMap<>();
         for (char character : chars) {
             if (character != ' ') {
@@ -63,7 +54,7 @@ public class AnagramSearcher implements IAnagramSearcher {
         List<String> dictionaryWords = dictionary.getWordsWithSameLength(word);
 
         for (String dictionaryWord : dictionaryWords) {
-            if (isAnagram(word, dictionaryWord)) {
+            if (areAnagrams(word, dictionaryWord)) {
                 anagramsList.add(dictionaryWord);
             }
         }

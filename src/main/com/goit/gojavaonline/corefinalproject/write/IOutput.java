@@ -1,4 +1,4 @@
-package com.goit.gojavaonline.corefinalproject.write;
+package main.com.goit.gojavaonline.corefinalproject.write;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,8 +1,7 @@
 package test.com.goit.gojavaonline.corefinalproject.anagram;
 
-import com.goit.gojavaonline.corefinalproject.anagram.AnagramSearcher;
-import com.goit.gojavaonline.corefinalproject.dictionary.Dictionary;
-import org.junit.Assert;
+import main.com.goit.gojavaonline.corefinalproject.anagram.AnagramSearcher;
+import main.com.goit.gojavaonline.corefinalproject.dictionary.Dictionary;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -20,7 +19,7 @@ public class AnagramSearcherTest {
         boolean expected = true;
 
         AnagramSearcher searcher = new AnagramSearcher();
-        boolean result = searcher.isAnagram(firstWord,secondWord);
+        boolean result = searcher.areAnagrams(firstWord,secondWord);
 
         assertEquals(expected,result);
     }
@@ -33,7 +32,7 @@ public class AnagramSearcherTest {
         boolean expected = false;
 
         AnagramSearcher searcher = new AnagramSearcher();
-        boolean result = searcher.isAnagram(firstWord,secondWord);
+        boolean result = searcher.areAnagrams(firstWord,secondWord);
 
         assertEquals(expected,result);
     }
@@ -46,7 +45,7 @@ public class AnagramSearcherTest {
         boolean expected = true;
 
         AnagramSearcher searcher = new AnagramSearcher();
-        boolean result = searcher.isAnagram(firstWord,secondWord);
+        boolean result = searcher.areAnagrams(firstWord,secondWord);
 
         assertEquals(expected,result);
     }
@@ -59,7 +58,7 @@ public class AnagramSearcherTest {
         boolean expected = false;
 
         AnagramSearcher searcher = new AnagramSearcher();
-        boolean result = searcher.isAnagram(firstWord,secondWord);
+        boolean result = searcher.areAnagrams(firstWord,secondWord);
 
         assertEquals(expected,result);
     }
@@ -72,7 +71,7 @@ public class AnagramSearcherTest {
         boolean expected = true;
 
         AnagramSearcher searcher = new AnagramSearcher();
-        boolean result = searcher.isAnagram(firstWord,secondWord);
+        boolean result = searcher.areAnagrams(firstWord,secondWord);
 
         assertEquals(expected,result);
     }
