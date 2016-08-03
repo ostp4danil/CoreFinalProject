@@ -19,7 +19,7 @@ public class ConsoleInput implements IInput {
 
     public String readString() {
         Scanner scanner = new Scanner(System.in);
-        String line = scanner.next();
+        String line = scanner.nextLine();
         return line;
     }
 

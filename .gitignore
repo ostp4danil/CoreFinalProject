@@ -1,8 +1,15 @@
-# Created by https://www.gitignore.io/api/intellij
-
-### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+#My choise for ignore
+.idea/
+target/
+*.iml
+tictacproject.iml
+_encodedMsg.txt
+src/META-INF/
+.DS_Store
+
 
 # User-specific stuff:
 .idea/workspace.xml
@@ -33,8 +40,7 @@
 
 # IntelliJ
 /out/
-out/*
-*out*
+
 # mpeltonen/sbt-idea plugin
 .idea_modules/
 
@@ -46,12 +52,3 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
-
-### Intellij Patch ###
-# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
-
- *.iml
- modules.xml
- .idea/misc.xml
- *.ipr
- .idea/modules.xml
